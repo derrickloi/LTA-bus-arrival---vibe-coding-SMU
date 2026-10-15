@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Leaflet DivIcon reset for transparent custom pins */
+.leaflet-div-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Custom scrollbar hiding helper */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SG Bus Arrival & Real-Time Proximity Tracker",
+  "description": "Real-time Singapore bus arrival times, live GPS bus location tracking, route radar, and approaching bus arrival proximity notifications.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
