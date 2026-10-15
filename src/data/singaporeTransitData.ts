@@ -178,6 +178,16 @@ export const SINGAPORE_BUS_STOPS: BusStop[] = [
     mrtLines: ['TEL'],
     description: 'Marine Parade Central & Parkway Parade Mall',
   },
+  {
+    code: '83139',
+    name: 'Parkway Parade',
+    road: 'Marine Parade Rd',
+    lat: 1.3018,
+    lng: 103.9052,
+    services: ['15', '31', '36', '43', '48', '134', '135', '196', '197'],
+    mrtLines: ['TEL'],
+    description: 'Outside Parkway Parade shopping centre & Marine Parade MRT',
+  },
 ];
 
 export const POPULAR_SINGAPORE_ROUTES: Record<string, BusRouteInfo> = {
